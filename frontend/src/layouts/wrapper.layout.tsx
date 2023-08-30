@@ -7,9 +7,7 @@ const WrapperLayout = () => {
         <>
             <Nav />
             <MainContent>
-                
-                    <Outlet />
-                {/* </Suspense> */}
+                <Outlet />
             </MainContent>
         </>
             
